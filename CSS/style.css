@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation: fontAnimation 2s ease-in  infinite normal;
+    Animation:colorAnimation .8s ease-in  infinite normal;
+}
+@keyframes fontAnimation{
+    from{font-size :20px;}
+    to{
+        font-size:40px;
+    }
+}
+@keyframes colorAnimation {
+    from{background-color: blue;}
+    to{
+        background-color: black;
+    }
+}
